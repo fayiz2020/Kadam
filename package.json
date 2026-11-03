@@ -1,0 +1,19 @@
+{
+  "name": "kadam-expense-android",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kadam expense tracker Android wrapper built with Capacitor",
+  "scripts": {
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "jspdf": "^2.5.2",
+    "jspdf-autotable": "^3.8.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
